@@ -1,0 +1,118 @@
+
+body{
+    padding: 0%;
+    margin: 15%;
+    /*background-color: #edf0f1;*/
+    display: block;
+    margin-top: 7%;
+    
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #555;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+
+.adresse{   
+    text-align: justify;
+    margin: 42px;
+    margin-top: 6px;
+    padding: 13px;
+}
+
+.nom{
+    font-size: 37px;
+}
+#magasinier{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}   
+
+.photo{
+    border-radius: 41% 41% 41% 41%;
+}
+
+/*ne pas utilizer c'est moche
+/* .photo {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  .photo:hover ,
+  .photo.hover  {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  } */
+  
+
+#reference{ 
+    background: content-box radial-gradient(rgb(121, 94, 100), rgb(104, 123, 131));
+    color: white; 
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 800;  
+    border-radius: 7%; 
+
+}
+
+section{
+    
+    text-align: justify;
+}
+
+
+#experiences, #formation, #langues, #informatique, #centres{
+    text-align: center;
+    display: contents;
+    
+}
+
+b{
+    
+    border: 10mm;
+    text-align: left;
+    margin-left: 10mm;
+    
+}
+
+
+.preparateur, .chauffeur, .monteur{
+    font-size: large;
+    padding-left: 10px;
+    margin: 10mm
+    
+}
+
+.pi{
+    text-decoration: none;
+    
+}
+
+.pp{
+    text-decoration: underline;
+}
+.p1{
+    margin: 10mm;
+    /* background-color:white; */
+}
+p{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.informatique-text, .centres-text{
+    margin: 10mm;
+}
